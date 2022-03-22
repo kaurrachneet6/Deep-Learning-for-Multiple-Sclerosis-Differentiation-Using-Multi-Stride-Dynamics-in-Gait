@@ -6,6 +6,13 @@
 * Manuel Hernandez mhernand@illinois.edu, http://kch.illinois.edu/hernandez
 * Richard Sowers r-sowers@illinois.edu, http://publish.illinois.edu/r-sowers/
 
+### Abstract:
+**Objective:** Multiple sclerosis (MS) is a chronic neurological condition of the central nervous system leading to various physical, mental and psychiatric complexities. Mobility limitations are amongst the most frequent and early markers of MS. We evaluate the effectiveness of a DeepMS2G (**deep** learning (DL) for **MS** differentiation using **m**ulti-**s**tride dynamics in **g**ait) framework, which is a DL-based methodology to classify multi-stride sequences of persons with MS (PwMS) from healthy older adults (HOA), in order to generalize over newer walking tasks and subjects. 
+**Methods:** We collect gait data using an instrumented treadmill from a balanced collection of 20 HOA and 20 PwMS. We utilize domain knowledge-based spatiotemporal and kinetic gait features along with two normalization schemes, namely standard size-based and multiple regression normalization strategies. These normalization help minimize the dependency of extracted gait parameters on demographics. To differentiate between multi-stride sequences of HOA and PwMS, we compare 16 traditional machine learning and DL algorithms.  We observed that residual neural network (ResNet) based models with regression-based normalization were the top performers across both task and subject generality classification designs. Further, we study the interpretability of our best-performing models; and discuss the association between the lower extremity function of participants and our model predictions. 
+**Results:** A multi-scale ResNet attained perfect subject classification accuracy and F1-score when generalizing from single-task walking to dual-task walking while talking; and a ResNet resulted in the best subject-wise accuracy and F1 of 82.9% and 0.81, respectively, when generalizing over new participants, both with regression-based normalization. 
+**Conclusion:** Our methodological approaches might be a of broader use for problems where multiple observations of dynamic activity are made on necessarily small cohorts (viz. cases of severe illness).
+**Significance:** Our proposed DL algorithms may contribute to efforts to automate MS diagnoses. 
+
 ### Dependencies:
 * Python 3.6
 * The versions of Python packages can be found in the file X.txt/X.yml
