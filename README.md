@@ -52,7 +52,6 @@ Further, we record the mean intersection point across all strides during the com
 * **RNN_model.py**: Vanilla Recurrent Neural Network (Uni- and Bi-directional versions)
 * **GRU_model.py**: Gated Recurrent Unit model (Uni- and Bi-directional)
 * **LSTM_model.py**: Long-short term memory model (Uni- and Bi-directional)
-* **CNN_LSTM_model.py**:
 * **utils_lstm.py**: Contains definition of general utilities like setting random seed for replicability etc. used across all three generalization frameworks and deep learning models. Further, contains utility functions like train, resume train, evaluate etc. for training the deep learning models on both task and subject generalization frameworks
 
 #### Machine Learning 
