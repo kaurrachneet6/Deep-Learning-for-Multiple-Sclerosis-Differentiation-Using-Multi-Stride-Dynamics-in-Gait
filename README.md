@@ -1,6 +1,6 @@
-# This project for the deep learning based gait data analysis for MS classification and evolution problem.
+# Deep learning-based gait data analysis for Multiple Sclerosis classification
 
-### Members:
+### Authors:
 * Rachneet Kaur rk4@illinois.edu https://www.linkedin.com/in/rachneet-kaur-a1ba5354/
 * Josh Levy jdlevy3@illinois.edu https://www.linkedin.com/in/joshlevymn/
 * Manuel Hernandez mhernand@illinois.edu, http://kch.illinois.edu/hernandez
@@ -11,7 +11,6 @@
 * The versions of Python packages can be found in the file X.txt/X.yml
 
 ### Code structure:
-* Remark: benchmarks.md file contains Traditional ML-based and single stride-based evalution metric benchmarks we would need to compare our deep learning models agains.
 #### Data Preparation
 * RAW Data:
     * **ButterflyPlot.ipynb**: For plotting the butterfly diagrams, their mean trajectories, and computing the features ((x, y) of the intersection point, ((x-mean_x)^2, (y-mean_y)^2) for the intersection point.
