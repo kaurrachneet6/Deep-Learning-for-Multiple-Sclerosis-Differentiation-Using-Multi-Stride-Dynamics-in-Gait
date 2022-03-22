@@ -1,8 +1,8 @@
 # Deep learning-based gait data analysis for Multiple Sclerosis classification
 
 ### Authors:
-* Rachneet Kaur rk4@illinois.edu https://www.linkedin.com/in/rachneet-kaur-a1ba5354/
-* Josh Levy jdlevy3@illinois.edu https://www.linkedin.com/in/joshlevymn/
+* Rachneet Kaur rk4@illinois.edu, https://www.linkedin.com/in/rachneet-kaur-a1ba5354/
+* Josh Levy jdlevy3@illinois.edu, https://www.linkedin.com/in/joshlevymn/
 * Manuel Hernandez mhernand@illinois.edu, http://kch.illinois.edu/hernandez
 * Richard Sowers r-sowers@illinois.edu, http://publish.illinois.edu/r-sowers/
 
