@@ -1,0 +1,17 @@
+{"dataset": "sizeN",
+    "strides_per_sequence": 5,
+    "framework": "subject",
+    "behavior": "train",
+    "bidirectional": false,
+    "name": "TCN_LR_OPTIM",
+    "model": "TCN",
+    "paramlr": [0.1, 0.001, 0.0001],
+    "paramoptimizer": ["torch.optim.Adam", "torch.optim.RMSprop"],
+    "parammodule__in_chans": [21],
+    "parammodule__out_chans": [2],
+    "parammodule__num_channels": [[20, 20]],
+    "parammodule__kernel_size": [3],
+    "parammodule__dropout": [0.3],
+    "paramcallbacks__EarlyStopping__patience": [1, 2, 3, 10], 
+    "parammax_epochs": [3, 5, 10, 20, 30, 50, 100]
+}
