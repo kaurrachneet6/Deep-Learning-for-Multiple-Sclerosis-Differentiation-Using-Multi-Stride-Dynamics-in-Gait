@@ -1,0 +1,10 @@
+#!/bin/bash
+#SBATCH --job-name="SubRes2"
+#SBATCH --output="SubRes2.%j.%N.out"
+#SBATCH --error="SubRes2.%j.%N.err"
+#SBATCH --partition=gpux1
+#SBATCH --time=24
+module load opence
+conda activate gvs_env
+cd "/home/kaur/gait/"
+python ./Runner2.py Configs/subject_gen_resnet/config_subject_resnet1.json
