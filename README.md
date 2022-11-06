@@ -94,3 +94,28 @@ If you use this code, please consider citing our work:
 (1)
 ```
 ```
+
+(2) https://ieeexplore.ieee.org/document/9311191
+```
+@ARTICLE{9311191,  
+author={R. {Kaur} and Z. {Chen} and R. {Motl} and M. E. {Hernandez} and R. {Sowers}},  
+journal={IEEE Transactions on Biomedical Engineering},   
+title={Predicting Multiple Sclerosis from Gait Dynamics Using an Instrumented Treadmill – A Machine Learning Approach},   
+year={2020},  
+volume={},  
+number={},  
+pages={1-1},  
+doi={10.1109/TBME.2020.3048142}}
+```
+
+(3) https://ieeexplore.ieee.org/abstract/document/8857604
+```
+@inproceedings{kaur2019exploring,
+  title={Exploring Characteristic Features in Gait Patterns for Predicting Multiple Sclerosis},
+  author={Kaur, Rachneet and Menon, Sanjana and Zhang, Xiaomiao and Sowers, Richard and Hernandez, Manuel E},
+  booktitle={2019 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)},
+  pages={4217--4220},
+  year={2019},
+  organization={IEEE}
+}
+```
