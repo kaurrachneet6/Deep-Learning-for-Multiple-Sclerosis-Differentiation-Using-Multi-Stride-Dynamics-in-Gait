@@ -91,8 +91,18 @@ For ablation study, We explore the performance using Spatial, Temporal, Kinetic,
 ### Citation:
 If you use this code, please consider citing our work:
 
-(1)
+(1) https://ieeexplore.ieee.org/abstract/document/10023977
 ```
+@article{kaur2023deep,
+  title={Deep learning for multiple sclerosis differentiation using multi-stride dynamics in gait},
+  author={Kaur, Rachneet and Levy, Joshua and Motl, Robert W and Sowers, Richard and Hernandez, Manuel E},
+  journal={IEEE Transactions on Biomedical Engineering},
+  volume={70},
+  number={7},
+  pages={2181--2192},
+  year={2023},
+  publisher={IEEE}
+}
 ```
 
 (2) https://ieeexplore.ieee.org/document/9311191
@@ -108,7 +118,21 @@ pages={1-1},
 doi={10.1109/TBME.2020.3048142}}
 ```
 
-(3) https://ieeexplore.ieee.org/abstract/document/8857604
+(3) https://ieeexplore.ieee.org/abstract/document/9896159
+```
+@article{kaur2022vision,
+  title={A vision-based framework for predicting multiple sclerosis and Parkinson's disease gait dysfunctions—A deep learning approach},
+  author={Kaur, Rachneet and Motl, Robert W and Sowers, Richard and Hernandez, Manuel E},
+  journal={IEEE Journal of Biomedical and Health Informatics},
+  volume={27},
+  number={1},
+  pages={190--201},
+  year={2022},
+  publisher={IEEE}
+}
+```
+
+(4) https://ieeexplore.ieee.org/abstract/document/8857604
 ```
 @inproceedings{kaur2019exploring,
   title={Exploring Characteristic Features in Gait Patterns for Predicting Multiple Sclerosis},
